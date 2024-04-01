@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg,#102770,#4e0854);
+}
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+  
+}
+
+h2{
+    color:darkred;
+    font-size: 30px;
+}
+input{
+    border-radius: 10px;
+    border: 2px solid darkorange ;
+    margin:10px;
+    height:40px;
+    width:80%;
+    padding:10px;
+}
+#wrapper{
+    height:40vh;
+    width:40vw;
+    margin:100px auto;
+    background: lightseagreen;
+    border-radius:20px;
+    padding:20px;
+}
+button{
+    margin:10px;
+    background-color:gold;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 800;
+    padding:10px;
+    border: none;
+    color: darkred;
+}
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:crimson;
+    font-size:25px;  
+    margin-top:5px; 
+    font-weight: 800;
+}
+
+#todoList p{
+  margin:10px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
